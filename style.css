@@ -1,12 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat+Alternates:ital,wght@0,200;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Cinzel:wght@600&family=Montserrat+Alternates:ital,wght@0,300;0,600;1,300;1,600&display=swap');
 
-/* font-family: 'Cinzel Decorative', cursive;
+/* font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
 font-family: 'Montserrat Alternates', sans-serif; */
 
-h1{
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+::selection {
+    color: white;
+    background: #BF9D55;
+  }
+
+.home-header {
+    background-image: url(./images/home.jpg);
+    min-height: 150px;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px;
+    margin: 0px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
     font-family: 'Cinzel Decorative', cursive;
 }
 
-body{
-    font-family: 'Montserrat Alternates', sans-serif;
+footer {
+    background-color: #BF9D55;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color: #414141;
+}
+
+.footer-name {
+    font-family: 'Cinzel', serif;
+}
+
+.footer-adress-contacts {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 0.8em;
+}
+
+.home-content-container {
+    position: relative;
+}
+
+.nav-menu-container {
+    width: 15%;
+    min-height: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.content-home-container {
+    background-color: white;
+    width: 40%;
+    min-height: 500px;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 30%;
+    background-image: url(./images/putto.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 30px;
+}
+
+.content-home-container p {
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.nav-link {
+    display: block;
+    color: #BF9D55;
+    font-size: 25px;
+    margin: 60px;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 4px;
+    width: auto;
+    overflow-x: hidden;
+    min-width: 20px;
+    border-width: 2px;
+}
+
+.nav-link:hover {
+    background-color: #f7e0b2d2;
+}
+
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #BF9D55;
+}
+
+.images-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 800px;
 }
